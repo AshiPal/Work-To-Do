@@ -1,0 +1,34 @@
+body{
+  background:#ffa6c1;
+	text-align: center;
+	font-family: 'Open Sans', sans-serif;
+}
+h1{
+  color:#7a0035;
+  font-weight: bold !important;
+}
+.add-task{
+  color:#003f88;
+}
+.completed-task{
+  color:#6a994e;
+}
+.delete-task{
+  color:#a4161a;
+}
+.input-task{
+  min-width: 65%;
+  border-radius: 5px;
+  border: none;
+  padding: 7px;
+}
+.input-button{
+  color:black;
+}
+#enter {
+	border: none;
+	padding: 11px 15px;
+	border-radius: 5px;
+	color: #ffa6c1;
+	background-color:#d75d7f;
+}
