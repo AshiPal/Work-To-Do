@@ -7,28 +7,68 @@ h1{
   color:#7a0035;
   font-weight: bold !important;
 }
-.add-task{
-  color:#003f88;
-}
-.completed-task{
-  color:#6a994e;
-}
-.delete-task{
+.info{
   color:#a4161a;
 }
-.input-task{
+.new-task{
   min-width: 65%;
   border-radius: 5px;
   border: none;
   padding: 7px;
 }
-.input-button{
-  color:black;
-}
-#enter {
+.enter {
 	border: none;
 	padding: 11px 15px;
 	border-radius: 5px;
 	color: #ffa6c1;
 	background-color:#d75d7f;
 }
+ul{
+  list-style-type: none;
+}
+li{
+  text-align: left;
+  margin: auto;
+  width: 55%;
+  border: 2px solid #bb3768;
+  padding: 10px;
+  margin-top: 20px;
+  background-color: #ffc4d6;
+  border-radius: 5px;
+  -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+li:hover{
+  background-color: fadde1;
+}
+.center {
+  margin: auto;
+  width: 50%;
+  padding: 10px;
+}
+.done{
+  background-color: #d75d7f !important;
+  border: 2px solid #7e1135;
+  -webkit-transition: background-color 500ms linear;
+    -ms-transition: background-color 500ms linear;
+    transition: background-color 500ms linear;
+}
+.delete-button{
+	background: none;
+  border: none;
+  /* display: block;*/
+  float: right; 
+	color: #bb3768;
+  font-weight: 800;
+}
+.done > .delete-button{
+  color:#7e1135;
+}
+.delete{
+  display: none;
+}
+.date{
+}
+
+

@@ -1,24 +1,34 @@
 <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
 <link href="https://use.fontawesome.com/releases/v5.0.4/css/all.css" rel="stylesheet">
 
+<script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+
+
 <html>
     <body>
         <div class="row">
-            <div class="heading col-12">
+            <div class="col-12 heading">
                 <h1>WORK TO-DO</h1>
             </div>
         </div>
         <div class="row">
-            <div class="help-text col-12">
-                <p class="add-task">Enter text into the input field to add tasks to your list</p>
-                <p class="completed-task">Click the task to mark it as complete</p>
-                <p class="delete-task">Click the "X" to remove the task from your list</p>
+            <div class="col-12 help-text">
+                <p class="info">Enter text into the input field to add tasks to your list</p>
+                <p class="info">Click the task to mark it as complete</p>
+                <p class="info">Click the "X" to remove the task from your list</p>
             </div>
         </div>
         <div class="row">
-            <div class="col-12 new-task">
-                <input type="text" class="input-task" placeholder="Enter task..."> 
-                <button id="enter"><i class="fas fa-pencil-alt"></i></button>
+            <div class="col-12 input-task">
+                <input type="text" class="new-task" id="new-task" placeholder="Enter task..."> 
+                <button class="enter" id="enter" ><i class="fas fa-pencil-alt"></i></button>
+            </div>
+        </div>
+        <div class="row">
+            <div class="col-12 list-items">
+                <ul></ul>
             </div>
         </div>
 
@@ -26,3 +36,14 @@
     </body>
     <link rel="stylesheet" href="style.css">
 </html>
+
+<link rel="stylesheet" href="style.css">
+
+
+
+
+
+
+
+
+
